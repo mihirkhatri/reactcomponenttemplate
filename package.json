@@ -1,0 +1,24 @@
+{
+  "name": "react-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "comp": "babel src-component-js --out-dir lib-component --presets react,es2015",
+    "views" : "babel src-views --out-dir lib-views --presets react,es2015",
+    "babelhelp": "babel --help",
+    "start" : "lite-server"
+  },
+  "author": "Mihir Khatri",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "lite-server": "^2.2.2",
+    "webpack": "^1.13.2"
+  }
+}
