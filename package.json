@@ -8,7 +8,7 @@
     "comp": "babel src-component-js --out-dir lib-component --presets react,es2015",
     "views" : "babel src-views --out-dir lib-views --presets react,es2015",
     "babelhelp": "babel --help",
-    "start" : "lite-server"
+    "start" : "babel src-component-js --out-dir lib-component --presets react,es2015 | babel src-views --out-dir lib-views --presets react,es2015 | lite-server"
   },
   "author": "Mihir Khatri",
   "license": "ISC",

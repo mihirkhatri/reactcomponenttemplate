@@ -32,18 +32,18 @@ var Board = function (_React$Component) {
         React.createElement(
           "h1",
           null,
-          "This Board has"
+          "This is board component"
         ),
         React.createElement(
-          "label",
+          "div",
           null,
-          "Rows : ",
+          "Number of Rows : ",
           this.state.rows
         ),
         React.createElement(
-          "label",
+          "div",
           null,
-          "Cols : ",
+          "Number of Cols : ",
           this.state.cols
         )
       );
@@ -68,7 +68,7 @@ var Square = function (_React$Component2) {
       return React.createElement(
         "div",
         { className: this.props.css },
-        "This is component 2"
+        "This is Square component"
       );
     }
   }]);

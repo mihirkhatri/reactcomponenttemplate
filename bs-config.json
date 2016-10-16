@@ -1,0 +1,5 @@
+{
+    "port" : 8000,
+    "files" : ["./*.html","./lib-component/*.js","./lib-views/*.js"],
+    "server" :  { "baseDir" : "./" }
+}
